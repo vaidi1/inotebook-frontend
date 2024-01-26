@@ -3,7 +3,7 @@ import noteContext from "./noteContext";
 // import { json } from "react-router-dom";
 
 const NoteState = (props)=> {
-  const host = "http://localhost:5000"
+  const host = "https://inotebook-backend-steel.vercel.app"
     const notesInitial = []
       const [notes, setNotes] = useState(notesInitial)
       //Get all notes
